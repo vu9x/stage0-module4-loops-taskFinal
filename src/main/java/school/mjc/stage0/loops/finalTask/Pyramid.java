@@ -14,8 +14,6 @@ public class Pyramid {
             for(int rightSide = 2; rightSide <= cathetusLength; rightSide++) {
                 if(rightSide <= heitght) {
                     System.out.print(rightSide);
-                } else {
-                    System.out.print(" ");
                 }
             }
 
@@ -25,6 +23,6 @@ public class Pyramid {
     }
 
     public static void main(String[] args) {
-        new Pyramid().printPyramid(7);
+        new Pyramid().printPyramid(0);
     }
 }
